@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Agdasima:wght@400;700&family=Permanent+Marker&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Agdasima:wght@400;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Permanent+Marker&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.log-men {
+    position: fixed;
+    z-index: 1;
+}
+
+.logo {
+    width: 200px;
+}
+
+.logo>h3 {
+    color: rgb(250, 248, 248);
+    font-family: "Permanent Marker", cursive;
+}
+
+.menu {
+    width: 500px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li {
+    list-style: none;
+}
+.menu-hide {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50%;
+    width: 200px;
+    height: 400px;
+    background-color: rgb(38, 39, 39);
+}
+
+.menu-hide ul {
+    width: 150px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-hide ul li {
+    padding-right: 20px;
+    list-style: none;
+    background-color: rgba(236, 236, 230, 0.5);
+    text-align: end;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Acme", sans-serif;
+    font-size: 15px;
+    color: rgb(228, 224, 12);
+}
+
+.home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.h-home {
+    background-color: rgb(73, 72, 72, 0.5);
+    clip-path: polygon(0 0, 100% 0, 87% 100%, 0% 100%);
+}
+
+.details {
+    width: 450px;
+}
+
+.details h1 {
+    font-size: 50px;
+    color: yellow;
+    font-family: "Agdasima", sans-serif;
+}
+
+.details h2 {
+    font-size: 35px;
+}
+
+.img {
+    width: 650px;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(16, 17, 17, 0.5);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.img:hover {
+    background-color: rgba(108, 110, 110, 0.9);
+    transition: 0.3s;
+}
+
+.img img {
+    width: 420px;
+}
+
+.aboutme {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(68, 69, 70);
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+}
+
+.aboutme a {
+    font-size: 20px;
+}
+
+.aboutme:hover {
+    background-color: rgb(17, 216, 84);
+    color: rgb(15, 15, 15);
+    transition: 0.3s;
+}
+
+.about-me {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-me {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-me h1 {
+    font-size: 60px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bolder;
+    color: rgb(94, 89, 89);
+}
+
+.services-me {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-me h1 {
+    font-size: 60px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bolder;
+    color: rgb(94, 89, 89);
+}
+
+.footer-me {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-me h1 {
+    font-size: 60px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bolder;
+    color: rgb(94, 89, 89);
+}
+
+.about-me h1 {
+    font-size: 60px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bolder;
+    color: rgb(94, 89, 89);
+}
+
+.m-img {
+    transition: 0.3s;
+    width: 400px;
+    height: 550px;
+    background-color: rgb(141, 136, 136);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    overflow: hidden;
+}
+
+.m-img:hover {
+    transition: 0.3s;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    background-color: rgb(245, 243, 243);
+}
+
+.drow p {
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.followme {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.followme i {
+    font-size: 25px;
+    color: rgb(167, 162, 162);
+    cursor: pointer;
+}
+
+.html {
+    width: 98%;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: rgb(151, 143, 143);
+}
+
+.html p {
+    font-size: 15px;
+    color: rgb(46, 45, 45);
+}
+
+.css {
+    width: 90%;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: rgb(151, 143, 143);
+}
+
+.css p {
+    font-size: 15px;
+    color: rgb(46, 45, 45);
+}
+
+.js {
+    width: 80%;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: rgb(151, 143, 143);
+}
+
+.js p {
+    font-size: 15px;
+    color: rgb(46, 45, 45);
+}
+
+.php {
+    width: 80%;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: rgb(151, 143, 143);
+}
+
+.php p {
+    font-size: 15px;
+    color: rgb(46, 45, 45);
+}
+
+.db {
+    width: 85%;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: rgb(151, 143, 143);
+}
+
+.db p {
+    font-size: 15px;
+    color: rgb(46, 45, 45);
+}
+
+.fr {
+    width: 90%;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: rgb(151, 143, 143);
+}
+
+.fr p {
+    font-size: 15px;
+    color: rgb(46, 45, 45);
+}
+
+.cursor {
+    width: 20em;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    font-size: 50px;
+    text-align: start;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+/* Animation */
+.typewriter-animation {
+    animation:
+        typewriter 5s steps(50) 1s 1 normal both,
+        blinkingCursor 500ms steps(50) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blinkingCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.text-in input {
+    width:50%;
+    padding-left: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    height: 45px;
+    border: 1px rgb(156, 155, 155) solid;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(32, 32, 32);
+    color: rgb(247, 245, 243);
+}
+
+.text-in textarea {
+    width: 70%;
+    height: 150px;
+    padding-left: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    border: 1px rgb(156, 155, 155) solid;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(32, 32, 32);
+    color: rgb(247, 245, 243);
+}
+
+.cl1 {
+    width: 100%;
+    background-color: rgb(101, 102, 102, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+}
+
+.cl1:hover {
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+
+.cl1:hover i {
+    color: rgb(245, 245, 242);
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+
+.icon1 {
+    /* background-color: antiquewhite; */
+}
+
+.icon1 i {
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+    background-color: rgb(107, 106, 105);
+}
+
+.btn-submit {
+    font-family: "Josefin Sans", sans-serif;
+    background-color: rgb(223, 223, 45);
+    border-radius: 10px;
+}
+
+.btn-submit:hover {
+    background-color: rgb(100, 100, 97);
+    color: white;
+    transition: 0.5s;
+}
+
+.footer-me h3 {
+    color: rgb(250, 248, 248);
+    font-family: "Permanent Marker", cursive;
+}
+
+.contactme a i {
+    color: yellow;
+    background-color: rgb(53, 52, 54);
+}
+.i-menu{
+    display: none;
+}
+.menu ul{
+    display: flex;
+}
+.menu-hide{
+    display: none;
+}
+  /* Tablet */
+  @media (min-width:768px)and(max-width: 768px) {
+    .i-menu{
+        display: none;
+    }
+    .menu ul{
+        display: flex;
+    }
+    .menu-hide{
+        display: none;
+    }
+  }
+
+  /* Mobile */
+  @media (max-width: 767px) {
+    .i-menu{
+        display: flex;
+    }
+    .menu ul{
+        display: none;
+    }
+    .img {
+       display: none;
+    }
+    .home{
+        height: 60vh; /* Adjust height for smaller screens */
+        padding: 20px;
+    }
+    .contact-me{
+        height: 120vh; /* Adjust height for smaller screens */
+        padding: 20px;
+    }
+    .services-me{
+        height: 100vh; /* Adjust height for smaller screens */
+        padding: 0;
+    }
+    .about-me {
+        height: 160vh; /* Adjust height for smaller screens */
+        padding: 20px;
+    }
+    .log-men {
+        height: auto; /* Allow the navbar to adjust based on content */
+    }
+    .details h1, .details h3 {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+    
+  }
